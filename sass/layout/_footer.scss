@@ -1,0 +1,29 @@
+footer {
+  background-color: $dark-grey-footer;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+
+.footer {
+  &__logo {
+    color: white;
+    font-family: "Shrikhand", sans-serif;
+    font-size: $span-font-size;
+  }
+  &__list {
+    margin: 0;
+  }
+  &__listElement {
+    display: flex;
+    padding: 0 $padding-section;
+  }
+  &__link {
+    color: $colour-white;
+    text-decoration: none;
+    font-size: $span-font-size;
+  }
+  &__icon {
+    margin-right: $margin-global-half;
+  }
+}

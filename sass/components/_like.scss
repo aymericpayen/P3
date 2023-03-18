@@ -1,0 +1,7 @@
+.like {
+  cursor: pointer;
+  transition-duration: 0.25s;
+  background: linear-gradient($colour-primary 0%, $colour-secondary 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

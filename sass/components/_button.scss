@@ -1,0 +1,20 @@
+button {
+  border: none;
+  padding: $padding-button;
+  border-radius: $border-radius-button;
+  color: $colour-white;
+  font-size: $span-font-size;
+  background-image: linear-gradient($colour-primary 0%, $colour-secondary 100%);
+  cursor: pointer;
+  transition-duration: 0.25s;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+
+  &:hover {
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
