@@ -121,7 +121,7 @@ footer {
 .footer__logo {
   color: white;
   font-family: "Shrikhand", sans-serif;
-  font-size: 1.2rem;
+  font-size: 18px;
 }
 .footer__list {
   margin: 0;
@@ -133,7 +133,8 @@ footer {
 .footer__link {
   color: #fff;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 16px;
+  font-weight: 500;
 }
 .footer__icon {
   margin-right: 0.5rem;
@@ -183,11 +184,11 @@ main {
 .description > h2 {
   font-size: 1.5rem;
   font-weight: 700;
-  padding: 0rem 2rem;
+  padding: 0rem 4rem;
 }
 
 .features {
-  padding: 3rem;
+  padding: 1rem;
   background-color: #fff;
 }
 .features > h2 {
@@ -619,7 +620,8 @@ button {
   padding: 1rem 2rem;
   border-radius: 3rem;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 16px;
+  font-weight: 500;
   background-image: linear-gradient(#9356dc 0%, #ff79da 100%);
   cursor: pointer;
   transition-duration: 0.25s;

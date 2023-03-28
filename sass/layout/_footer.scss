@@ -9,7 +9,7 @@ footer {
   &__logo {
     color: white;
     font-family: "Shrikhand", sans-serif;
-    font-size: $span-font-size;
+    font-size: 18px;
   }
   &__list {
     margin: 0;
@@ -21,7 +21,8 @@ footer {
   &__link {
     color: $colour-white;
     text-decoration: none;
-    font-size: $span-font-size;
+    font-size: 16px;
+    font-weight: 500;
   }
   &__icon {
     margin-right: $margin-global-half;

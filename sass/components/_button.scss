@@ -3,7 +3,8 @@ button {
   padding: $padding-button;
   border-radius: $border-radius-button;
   color: $colour-white;
-  font-size: $span-font-size;
+  font-size: 16px;
+  font-weight: 500;
   background-image: linear-gradient($colour-primary 0%, $colour-secondary 100%);
   cursor: pointer;
   transition-duration: 0.25s;
