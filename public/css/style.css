@@ -605,7 +605,7 @@ main {
 
 .menuButton {
   background-color: #f7f7f7;
-  margin: auto;
+  padding: 0rem 0rem 2rem 0rem;
 }
 .menuButton button {
   margin: auto;
