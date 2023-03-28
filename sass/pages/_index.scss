@@ -22,6 +22,7 @@ main {
 
   p {
     font-size: $p-font-size;
+    font-weight: 500;
   }
 }
 
@@ -38,7 +39,6 @@ main {
   > h1 {
     font-size: $h1-font-size;
     margin-bottom: $layout-margin;
-    color: red;
   }
 
   > span {
@@ -49,6 +49,8 @@ main {
 
   > h2 {
     font-size: $h2-font-size;
+    font-weight: 700;
+    padding: 0rem 2rem;
   }
 }
 
@@ -58,7 +60,7 @@ main {
 
   > h2 {
     font-size: $h2-font-size;
-    font-weight: bold;
+    font-weight: 700;
   }
 
   .steps {
@@ -79,6 +81,9 @@ main {
     border-style: none;
     background-color: $light-grey;
     box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.125);
+    & > .step--description > p {
+      font-weight: 500;
+    }
 
     &:hover {
       background-color: #ffe3f7;
@@ -123,7 +128,7 @@ main {
       text-align: center;
 
       > p {
-        font-weight: bold;
+        font-weight: 500;
       }
     }
   }
@@ -135,7 +140,7 @@ main {
 
   > h2 {
     font-size: $h2-font-size;
-    font-weight: bold;
+    font-weight: 700;
   }
 }
 
@@ -196,7 +201,7 @@ main {
 
     > p {
       position: absolute;
-      font-size: $p-font-size;
+      font-size: 17px;
       top: $p-top-absolute-position;
     }
   }
