@@ -197,7 +197,8 @@ main {
 }
 .menuButton {
   background-color: $light-grey;
-  padding: 0rem 0rem 3rem 0rem;
+  position: relative;
+  top: 0.5rem;
 
   button {
     margin: auto;
