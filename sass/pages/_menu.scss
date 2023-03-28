@@ -33,7 +33,9 @@ main {
     padding: 0rem 1rem;
     > h2 {
       display: inline;
-      font-size: $h2-font-size;
+      font-size: 28px;
+      font-weight: 400;
+      font-family: "Shrikhand", sans-serif;
     }
 
     &Icon {
@@ -124,13 +126,15 @@ main {
     }
 
     & h4 {
-      margin: 0 0 0.5rem 0;
-      font-size: 1.1rem;
+      margin: 0 0 0 0;
+      font-size: 18px;
+      font-weight: 500;
       @extend %elipstext;
       width: 90%;
     }
 
     & p {
+      font-size: 16px;
       @extend %elipstext;
     }
 
