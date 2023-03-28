@@ -605,8 +605,7 @@ main {
 
 .menuButton {
   background-color: #f7f7f7;
-  position: relative;
-  top: -2.5rem;
+  margin: auto;
 }
 .menuButton button {
   margin: auto;
