@@ -38,6 +38,7 @@ main {
   > h1 {
     font-size: $h1-font-size;
     margin-bottom: $layout-margin;
+    color: red;
   }
 
   > span {
@@ -52,7 +53,7 @@ main {
 }
 
 .features {
-  padding: 3rem;
+  padding: 10rem;
   background-color: $colour-white;
 
   > h2 {
